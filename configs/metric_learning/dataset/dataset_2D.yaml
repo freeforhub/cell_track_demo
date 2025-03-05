@@ -1,0 +1,15 @@
+_target_: src_metric_learning.Data.dataset_2D
+kwargs:
+  pad_value: 0
+  norm_value: 0
+  normalize_type: 'MinMaxCell'
+  train_val_test_split: [80, 20, 0]
+
+  data_dir_img: "./datasets/Fluo-N2DH-SIM+/Training"
+  data_dir_mask: "./datasets/Fluo-N2DH-SIM+/Training"
+  subdir_mask: 'GT/TRA'
+  dir_csv: "./datasets/basic_features/Fluo-N2DH-SIM+"
+
+  curr_seq: 1
+  num_sequences: 2
+  deviation: 'no_overlap'

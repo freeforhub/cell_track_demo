@@ -1,0 +1,8 @@
+input_images: "./datasets/Fluo-N2DH-SIM+/Training"
+input_masks: "./datasets/Fluo-N2DH-SIM+/Training"
+input_seg:  "./datasets/Fluo-N2DH-SIM+/Training"
+input_model: 'D:\Python\cell_track_demo\sotfware\parameters\Features_Models\Fluo-N2DH-SIM+\all_params.pth' # 使用绝对路径
+output_csv: "./datasets/ct_features/"
+basic: False   #是否提取基础特征 基础特征不需要使用DML模型
+sequences: ['01', '02']
+seg_dir: '_GT/SEG'
